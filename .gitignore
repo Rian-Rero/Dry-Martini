@@ -3,3 +3,7 @@
 
 # Ignorar arquivos temporários/backup do CODESYS
 *.~u
+*.xml
+*.compileinfo
+*.bootinfo_guids
+*.bootinfo
