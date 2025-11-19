@@ -1,0 +1,5 @@
+# Ignorar arquivos de opções de usuário (específico da máquina)
+*.opt
+
+# Ignorar arquivos temporários/backup do CODESYS
+*.~u
