@@ -7,6 +7,7 @@
 *.compileinfo
 *.bootinfo_guids
 *.bootinfo
+*.bin
 # --- InduSoft Web Studio / AVEVA Edge ---
 
 # Arquivos de Backup automáticos (criados quando você salva)
@@ -27,6 +28,5 @@
 
 # Pasta de arquivos compilados/web (Geralmente é gerada ao rodar)
 # Se você não editou HTML manualmente, pode ignorar
-/Web
-/_MACOSX
-_MACOSX
+/IHM/Web/Dump/
+/__MACOSX
