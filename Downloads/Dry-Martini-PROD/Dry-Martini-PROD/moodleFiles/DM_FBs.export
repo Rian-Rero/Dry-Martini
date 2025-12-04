@@ -1,0 +1,2095 @@
+<ExportFile>
+  <StructuredView Guid="{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}">
+<Single xml:space="preserve" Type="{3daac5e4-660e-42e4-9cea-3711b98bfb63}" Method="IArchivable">
+  <Null Name="Profile" />
+  <List2 Name="EntryList">
+    <Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">True</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">b0d3e283-c362-4fee-b9fd-1367dec7625a</Single>
+        <Single Name="ParentGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+        <Single Name="Name" Type="string">DM</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">829a18f2-c514-4f6e-9634-1df173429203</Single>
+            </Key>
+            <Value>
+              <Single Type="{829a18f2-c514-4f6e-9634-1df173429203}" Method="IArchivable">
+                <Dictionary Type="{fa2ee218-a39b-4b6d-b249-49dbddbd168a}" Name="ParentObjects">
+                  <Entry>
+                    <Key>
+                      <Single Type="System.Guid">d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">3de196ea-08c7-4962-8b8c-3ca51f900f7c</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary>
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">738bea1e-99bb-4f04-90bb-a7a567e74e3a</Single>
+        <Null Name="EmbeddedTypeGuids" />
+        <Single Name="Timestamp" Type="long">638245349432789071</Single>
+      </Single>
+      <Single Name="Object" Type="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" Method="IArchivable">
+        <Single Name="StructuredViewGuid" Type="System.Guid">d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">3de196ea-08c7-4962-8b8c-3ca51f900f7c</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">Application</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    <Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">0fd0a411-062c-413c-ad6d-bbedf417df13</Single>
+        <Single Name="ParentGuid" Type="System.Guid">3de196ea-08c7-4962-8b8c-3ca51f900f7c</Single>
+        <Single Name="Name" Type="string">RMISTURA</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">66e0aa87-603e-4e95-b7ac-da3c4a099b35</Single>
+            </Key>
+            <Value>
+              <Single Type="{66e0aa87-603e-4e95-b7ac-da3c4a099b35}" Method="IArchivable">
+                <Dictionary2 Name="VerbToPermissionId">
+                  <Entry>
+                    <Key>
+                      <Single Type="string">View</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">a69241c5-003c-4762-bd44-5c0811a44c2b</Single>
+                    </Value>
+                  </Entry>
+                  <Entry>
+                    <Key>
+                      <Single Type="string">Modify</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">c46fbf5b-b82e-4830-a039-ee4a4c35d35d</Single>
+                    </Value>
+                  </Entry>
+                  <Entry>
+                    <Key>
+                      <Single Type="string">Remove</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">34218ae5-87a2-4c79-901b-d68caba1e669</Single>
+                    </Value>
+                  </Entry>
+                  <Entry>
+                    <Key>
+                      <Single Type="string">AddRemoveChildren</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">50087e49-5942-485d-8c19-42fc0626c39f</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary2>
+                <Single Name="Acl" Type="{19c1c34b-6bfc-4383-8eb0-fa3b6d274388}" Method="IArchivable">
+                  <Dictionary2 Name="GroupNameHints">
+                    <Entry>
+                      <Key>
+                        <Single Type="System.Guid">f0d827c6-f101-4989-9f99-9f7698a98547</Single>
+                      </Key>
+                      <Value>
+                        <Single Type="string">Everyone</Single>
+                      </Value>
+                    </Entry>
+                  </Dictionary2>
+                  <Dictionary2 Name="AclEntries">
+                    <Entry>
+                      <Key>
+                        <Single Type="System.Guid">f0d827c6-f101-4989-9f99-9f7698a98547</Single>
+                      </Key>
+                      <Value>
+                        <Single Type="{b7f5d57c-9feb-4ddf-991d-1076f52ec9a8}" Method="IArchivable">
+                          <Dictionary2 Name="Permissions">
+                            <Entry>
+                              <Key>
+                                <Single Type="System.Guid">a69241c5-003c-4762-bd44-5c0811a44c2b</Single>
+                              </Key>
+                              <Value>
+                                <Single Type="bool">False</Single>
+                              </Value>
+                            </Entry>
+                            <Entry>
+                              <Key>
+                                <Single Type="System.Guid">c46fbf5b-b82e-4830-a039-ee4a4c35d35d</Single>
+                              </Key>
+                              <Value>
+                                <Single Type="bool">False</Single>
+                              </Value>
+                            </Entry>
+                            <Entry>
+                              <Key>
+                                <Single Type="System.Guid">34218ae5-87a2-4c79-901b-d68caba1e669</Single>
+                              </Key>
+                              <Value>
+                                <Single Type="bool">True</Single>
+                              </Value>
+                            </Entry>
+                            <Entry>
+                              <Key>
+                                <Single Type="System.Guid">50087e49-5942-485d-8c19-42fc0626c39f</Single>
+                              </Key>
+                              <Value>
+                                <Single Type="bool">False</Single>
+                              </Value>
+                            </Entry>
+                          </Dictionary2>
+                        </Single>
+                      </Value>
+                    </Entry>
+                  </Dictionary2>
+                </Single>
+              </Single>
+            </Value>
+          </Entry>
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">829a18f2-c514-4f6e-9634-1df173429203</Single>
+            </Key>
+            <Value>
+              <Single Type="{829a18f2-c514-4f6e-9634-1df173429203}" Method="IArchivable">
+                <Dictionary Type="{fa2ee218-a39b-4b6d-b249-49dbddbd168a}" Name="ParentObjects">
+                  <Entry>
+                    <Key>
+                      <Single Type="System.Guid">d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">b0d3e283-c362-4fee-b9fd-1367dec7625a</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary>
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">6f9dac99-8de1-4efc-8465-68ac443b7d08</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+          <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">638245968616145738</Single>
+      </Single>
+      <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
+        <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
+        <Single Name="Implementation" Type="{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">135</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">(* Nível do Reator de Mistura*)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">111</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF RM_VOL &gt;= 0.0 AND RM_VOL &lt; VOL_MAX THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">113</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">189</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSH101 := FALSE;								// Chave de nível alto desatuada</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">227</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF RM_VOL &gt;= VOL_MIN THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">471</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		LSL101 := TRUE;								// Chave de nível baixo atuada</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">228</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">81</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">84</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF FV101 AND NOT FV102 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">85</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		RM_VOL := RM_VOL + GIN_DT*TT;				// Enchendo com a vazão de GIN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">119</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	ELSIF FV102 AND NOT FV101 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">118</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		RM_VOL := RM_VOL + VERM_DT*TT;				// Enchendo com a vazão de Vermouth</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">86</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	ELSIF FV101 AND FV102 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">89</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		RM_VOL := RM_VOL + (GIN_DT + VERM_DT)*TT;	// Enchendo com a vazão de GIN+Vermouth</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">90</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">76</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">464</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">419</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF FV104 AND BA101 AND (FV105 OR FV106) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">420</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		RM_VOL := RM_VOL - DM_DT*TT;				// Esvaziando com a vazão de Dry Martini para o TP</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">421</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">													// Esvaziando com a vazão de Dry Martini para DRENO</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">422</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">													// Esvaziando com a vazão de Dry Martini para TP e para DRENO		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">145</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">576</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">146</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">(* Chaves de nível do Reator de Mistura *)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">147</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF RM_VOL &gt;= 0.9*VOL_MAX THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">431</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSH101 := TRUE;				// Nível alto de RM atingido</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">150</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSIF RM_VOL &lt; VOL_MIN THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">432</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSL101 := FALSE;			// Nível baixo do RM atingido</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">602</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">//ELSIF NOT (FV101 AND FV102) AND RM_VOL &gt; 44.0 AND RM_VOL &lt; 46.0 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">453</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">//	RM_VOL:= 45.0;			// Arredondamento para 45L</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">190</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">603</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">604</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// IF NOT (FV101 AND FV102) AND RM_VOL &gt; 44.5 AND RM_VOL &lt; 45.5 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">592</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// 	RM_VOL:= 45.0;			// Arredondamento para 45L</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">605</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">593</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">594</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Saturação do RM em 0</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">595</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF RM_VOL &lt; 0.0 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">596</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	RM_VOL := 0.0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">597</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">598</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Saturação do RM em 50</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">600</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF RM_VOL &gt; VOL_MAX THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">601</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	RM_VOL := VOL_MAX;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">599</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">136</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">585</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Conversão de Volume para Nível</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">586</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">RM_LEVEL := (RM_VOL/1000 + PI*EXPT(RAIO,2)*(RAIO/2)*(1-FR))/(PI*EXPT(RAIO,2)); </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">587</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Saturação do RM em 0.0</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">588</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF RM_LEVEL &lt; 0.01 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">589</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	RM_LEVEL := 0.0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">590</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">584</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">RM_LEVEL := LREAL_TO_INT(RM_LEVEL*1000);	// Nível em mm</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">591</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">154</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">(* Nível da Jaqueta de Refrigeração *) </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">155</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF JR_VOL &gt;= 0.0 AND JR_VOL &lt; VOL_MAX_JR THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">200</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSH102 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">232</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">230</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF JR_VOL &gt;= VOL_MIN_JR THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">231</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		LSL102 := TRUE;							// Chaves de nível baixo atuada</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">229</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">157</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">158</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF FV103 THEN							// A Fator de Forma (FF := 3.0) indica que o JR é 3x menor que o RM</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">159</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		JR_VOL := JR_VOL + LRIN_DT*FF*TT;	// Enchendo com a vazão de Entrada de Líquido Refrigerante </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">294</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">96</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">316</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">317</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF FV107 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">615</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	JR_VOL := JR_VOL - LROUT_DT*FF*TT;		// Esvazianndo com a vazão de Saída de Líquido Refrigerante</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">616</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF JR_VOL &lt; 0.5*VOL_MAX_JR THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">617</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		TSL101_TIMER(IN:=FALSE);			// Reset TIMER</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">318</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">144</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">319</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">125</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">(* Chaves de nível da Jaqueta de Refrigeração *)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">99</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF JR_VOL &gt;= 0.8*VOL_MAX_JR THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">296</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSH102 := TRUE;							// Nível alto de JR atingido</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">98</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	TSL101_TIMER(IN:=TRUE,PT:=TSL101_PT);	// TSL101_PT segundos para atuar TSL101 </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">445</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSIF JR_VOL &lt; 0.0 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">104</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSL102 := FALSE;						// Nível de JR abaixo de 10%	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">102</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	JR_VOL := 0.0;						// Saturação do JR em 0.0</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">192</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">609</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">608</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Saturacao JR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">612</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF JR_VOL &gt; VOL_MAX_JR THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">611</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	JR_VOL := VOL_MAX_JR;					// Saturação do JR em 100.0</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">613</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">607</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">194</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">(* Falhas no RM e na JR *)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">196</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF RM_VOL &gt;= VOL_MAX AND (FV101 OR FV102) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">264</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM_MSG := "Reator de Mistura transbordando...";			</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">201</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">271</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSIF BA101 AND NOT FV104 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">272</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM_MSG := "BA101 em vácuo, abrir FV104...";</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">424</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">425</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSIF NOT BA101 AND FV104 AND (FV101 OR FV102) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">426</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM_MSG := "FV104 aberta, vazamento de produto...";</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">427</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">428</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSIF BA101 AND FV104 AND NOT(FV105 OR FV106) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">429</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM_MSG := "FV105 e FV106 fechadas, sobrepressão na tubulação...";</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">270</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">241</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSIF BA101 AND FV104 AND RM_VOL &lt;= 0.0 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">253</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM_MSG := "Reator de Mistura esgotado...";</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">240</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">265</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSE</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">266</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM_MSG := "OK";</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">263</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">203</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">212</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">205</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF JR_VOL &gt;= 0.8*VOL_MAX_JR AND FV103 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">221</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_JR_MSG := "Jaqueta cheia, risco de ruptura...";</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">442</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_JR := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">443</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSIF NOT LSL102 AND FV107 AND JR_VOL &lt;= 0.0 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">444</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_JR_MSG := "Jaqueta esgotada...";</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">237</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_JR := TRUE;	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">238</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSE</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">267</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_JR_MSG := "OK";</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">440</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_JR := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">210</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">451</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">452</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Temperatura baixa da mistura do RM atingida</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">450</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">TSL101 := TSL101_TIMER.Q;				</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">283</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// PWM em SY101 </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">285</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">SY101_VEL := SY101_VEL + ALFA*(BOOL_TO_REAL(PWM_SY101) - SY101_VEL);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">9</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">480</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">FUNCTION_BLOCK FINAL RMISTURA</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">481</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">(* O nível do RM aumenta se FV-101 ou FV-102 estierem acionadas.</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">482</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">   O nível do RM aumenta com uma vazão maior se FV-101 e FV-102 estiver acionadas.</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">483</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">   O nível do RM diminui se FV-104 e BA-01 estiverem acionadas.</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">484</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">   Observe a saída FALHA_RM e FALHA_JR, que sempre indicará se alguma falha ocorrer no RM ou na JR, </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">485</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">   Ex.: bombear fluido com LSH-101 ou LSH-102 atuadas.*)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">486</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR_INPUT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">487</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//Vazão de Entrada de GIN - 360 L/min</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">488</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FV101: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">489</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//Válvula de Entrada de Vermouth - 300 L/min	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">490</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FV102: BOOL;	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">491</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//Válvula de Entrada de Líquido Refrigerante - 300 L/min</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">492</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FV103: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">493</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//Válvula de Saída de Dry Martini - 900 L/min</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">494</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FV104: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">495</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//Válvula de Entrada do Tanque de Produto	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">496</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FV105: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">497</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//Válvula de Entrada de Dreno - 900 L/min</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">498</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FV106: BOOL;			</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">499</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//Válvula de Saída de Liquido Refrigerante - 300 L/min</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">500</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FV107: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">501</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Bomba saída do Reator de Mistura</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">502</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	BA101: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">503</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Entrada PWM para motor do misturador</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">504</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	PWM_SY101: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">505</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// The task cyclic time</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">506</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	TT: REAL := 1.00;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">507</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Tempo simulado para atuação de TSL101</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">508</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	TSL101_PT: TIME;	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">509</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">510</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR_OUTPUT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">511</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Nível do Reator de Mistura</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">575</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	RM_LEVEL: LREAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">574</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Volume do Reator de Mistura</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">512</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	RM_VOL: REAL; </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">515</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Volume da Jaqueta de Refrigeração</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">516</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	JR_VOL: REAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">519</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Chave de nível alta para o RM</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">520</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSH101: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">521</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Chave de nível baixa para o RM</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">522</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSL101: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">523</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Chave de nível alta da Jaqueta de Refrigeração</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">524</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSH102: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">525</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Chave de nível baixa da Jaqueta de Refrigeração</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">526</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSL102: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">527</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Chave de temperatura baixa da mistura do Reator de Mistura</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">528</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	TSL101: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">529</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Mensagem sobre a falha no Reator de Mistura</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">530</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM_MSG: WSTRING := "OK";</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">531</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Booleano que indica falha no RM</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">532</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_RM: BOOL;	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">533</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Mensagem sobre a falha na Jaqueta de Refrigeração</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">534</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_JR_MSG: WSTRING := "OK";</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">535</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Booleano que indica falha na JR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">536</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_JR: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">537</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Velocidade SY101</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">538</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	SY101_VEL: REAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">539</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">540</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">543</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Incremento de GIN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">544</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GIN_DT: REAL := 0.4;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">545</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Incremento de VERMOUTH</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">546</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	VERM_DT: REAL := 0.333333;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">547</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Incremento de Líquido Refrigerante entrando</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">548</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LRIN_DT: REAL := 0.20;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">549</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Incremento de Líquido Refrigerante saindo</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">550</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LROUT_DT: REAL := 0.20;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">551</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Incremento de Dry Martini</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">552</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	DM_DT: REAL := 1.00;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">553</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Nível MIN em L</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">554</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	VOL_MIN: REAL := 5;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">555</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Nível MAX em L</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">556</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	VOL_MAX: REAL := 50;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">557</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Nível MIN em L</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">558</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	VOL_MIN_JR: REAL := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">559</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Nível MAX em L</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">560</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	VOL_MAX_JR: REAL := 18.75;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">561</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Constante de tempo do filtro de SY101_VEL</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">562</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	ALFA: REAL := 0.01;	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">563</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Tempo para a temperatura alcançar ~0oC.</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">564</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	TSL101_TIMER: TON;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">565</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Fator de forma da Jaqueta de Refrigeração</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">566</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FF: REAL := 2.0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">567</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">568</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">569</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR CONSTANT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">570</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	PI: LREAL := 3.141592654;	//Constante PI</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">571</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	RAIO: REAL := 0.1; 		//Raio da base do tanque</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">572</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	L: REAL := 1.6;			//Nível máximo medido por LT101 (equivale a 50L considerando o Fator de Redução do volume pela esfericidade da base)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">573</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FR: REAL := 0.84;		//Fator de redução por esfericidade da base (17%) se fosse um cilindro	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">1</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="UniqueIdGenerator" Type="string">617</Single>
+        <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
+        <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
+        <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">b0d3e283-c362-4fee-b9fd-1367dec7625a</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">Application</Single>
+        <Single Type="string">DM</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    <Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">f3bded49-2ca5-4bd2-b99e-a0ae73d547d1</Single>
+        <Single Name="ParentGuid" Type="System.Guid">3de196ea-08c7-4962-8b8c-3ca51f900f7c</Single>
+        <Single Name="Name" Type="string">TPRODUTO</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">66e0aa87-603e-4e95-b7ac-da3c4a099b35</Single>
+            </Key>
+            <Value>
+              <Single Type="{66e0aa87-603e-4e95-b7ac-da3c4a099b35}" Method="IArchivable">
+                <Dictionary2 Name="VerbToPermissionId">
+                  <Entry>
+                    <Key>
+                      <Single Type="string">View</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">8dc19b0d-10ac-4e2f-a1d8-85e0a8484f33</Single>
+                    </Value>
+                  </Entry>
+                  <Entry>
+                    <Key>
+                      <Single Type="string">Modify</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">63c4e9b1-e7c6-43b7-8848-e4b62b86529a</Single>
+                    </Value>
+                  </Entry>
+                  <Entry>
+                    <Key>
+                      <Single Type="string">Remove</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">6e9413cc-91b7-4326-bead-340c0ee3e659</Single>
+                    </Value>
+                  </Entry>
+                  <Entry>
+                    <Key>
+                      <Single Type="string">AddRemoveChildren</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">4835a74b-4d9e-4e90-9449-58b16165e990</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary2>
+                <Single Name="Acl" Type="{19c1c34b-6bfc-4383-8eb0-fa3b6d274388}" Method="IArchivable">
+                  <Dictionary2 Name="GroupNameHints">
+                    <Entry>
+                      <Key>
+                        <Single Type="System.Guid">f0d827c6-f101-4989-9f99-9f7698a98547</Single>
+                      </Key>
+                      <Value>
+                        <Single Type="string">Everyone</Single>
+                      </Value>
+                    </Entry>
+                  </Dictionary2>
+                  <Dictionary2 Name="AclEntries">
+                    <Entry>
+                      <Key>
+                        <Single Type="System.Guid">f0d827c6-f101-4989-9f99-9f7698a98547</Single>
+                      </Key>
+                      <Value>
+                        <Single Type="{b7f5d57c-9feb-4ddf-991d-1076f52ec9a8}" Method="IArchivable">
+                          <Dictionary2 Name="Permissions">
+                            <Entry>
+                              <Key>
+                                <Single Type="System.Guid">8dc19b0d-10ac-4e2f-a1d8-85e0a8484f33</Single>
+                              </Key>
+                              <Value>
+                                <Single Type="bool">False</Single>
+                              </Value>
+                            </Entry>
+                            <Entry>
+                              <Key>
+                                <Single Type="System.Guid">63c4e9b1-e7c6-43b7-8848-e4b62b86529a</Single>
+                              </Key>
+                              <Value>
+                                <Single Type="bool">False</Single>
+                              </Value>
+                            </Entry>
+                            <Entry>
+                              <Key>
+                                <Single Type="System.Guid">6e9413cc-91b7-4326-bead-340c0ee3e659</Single>
+                              </Key>
+                              <Value>
+                                <Single Type="bool">True</Single>
+                              </Value>
+                            </Entry>
+                            <Entry>
+                              <Key>
+                                <Single Type="System.Guid">4835a74b-4d9e-4e90-9449-58b16165e990</Single>
+                              </Key>
+                              <Value>
+                                <Single Type="bool">False</Single>
+                              </Value>
+                            </Entry>
+                          </Dictionary2>
+                        </Single>
+                      </Value>
+                    </Entry>
+                  </Dictionary2>
+                </Single>
+              </Single>
+            </Value>
+          </Entry>
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">829a18f2-c514-4f6e-9634-1df173429203</Single>
+            </Key>
+            <Value>
+              <Single Type="{829a18f2-c514-4f6e-9634-1df173429203}" Method="IArchivable">
+                <Dictionary Type="{fa2ee218-a39b-4b6d-b249-49dbddbd168a}" Name="ParentObjects">
+                  <Entry>
+                    <Key>
+                      <Single Type="System.Guid">d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">b0d3e283-c362-4fee-b9fd-1367dec7625a</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary>
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">6f9dac99-8de1-4efc-8465-68ac443b7d08</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+          <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">638245960891933422</Single>
+      </Single>
+      <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
+        <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
+        <Single Name="Implementation" Type="{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">25</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">(* Nível do Tanque de Produto *) </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">26</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF TP_VOL &gt;= 0.0 AND TP_VOL &lt; VOL_MAX THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">215</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSHH201 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">220</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF TP_VOL = 0.0 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">221</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		TP_LEVEL_ADJ := RM_VOL + 1;				// Guarda o valor de RM_VOL inicial</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">219</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">186</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">29</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF TP_VOL &gt;= VOL_MIN AND TP_VOL &lt;= 0.85*VOL_MAX THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">67</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		LSL201 := TRUE;							// Chave de nível baixo atuada</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">30</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		LSH201 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">66</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	ELSIF TP_VOL &gt;= 85.0 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">65</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		LSH201 := TRUE;							// Chave de nível alto atuada</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">31</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">32</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">33</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF FV105 AND BA101 AND FV104 AND NOT FV106 AND RM_VOL &gt; 0 THEN	// O Fator de Forma (FF := 0.2) indica que o TP é 5x maior que o RM</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">121</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		TP_VOL := TP_VOL + DM_DT*FF*TT;			// Enchendo com a vazão de saída de Dry Martini </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">250</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		STOP := FALSE;							</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">73</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	ELSIF FV105 AND BA101 AND FV104 AND FV106 AND RM_VOL &gt; 0 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">34</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		TP_VOL := TP_VOL + 0.4*DM_DT*FF*TT;		// Enchendo com a vazão de saída de Dry Martini - vazão de Dreno</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">108</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		STOP := FALSE;	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">251</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">242</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">244</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF FV105 AND BA101 AND FV104 AND NOT FV106 AND RM_VOL = 0 AND NOT STOP THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">245</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		TP_VOL := TP_VOL + 1;					// Ajusta o valor final do TP_LEVEL</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">246</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		STOP := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">248</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	ELSIF FV105 AND BA101 AND FV104 AND FV106 AND RM_VOL = 0 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">243</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		TP_VOL := TP_VOL + 1;					// Ajusta o valor final do TP_LEVEL</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">252</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		STOP := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">247</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">241</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">40</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">209</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">112</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF FV201 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">113</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		TP_VOL := TP_VOL - ENVASE_DT*FF*TT;	// Esvazianndo com a vazão de Saída de Envase de Tonel</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">41</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">188</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">189</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">(* Chaves de nível do Tanque de Produto *)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">190</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF TP_VOL &gt;= 0.95*VOL_MAX THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">191</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSHH201 := TRUE;				// Nível muito alto de TP atingido	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">193</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSIF TP_VOL &lt; VOL_MIN THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">194</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSL201 := FALSE;				// Nível do TP abaixo do 10%</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">195</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">197</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">200</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Saturação do TP em 0</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">201</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF TP_VOL &lt; 0.0 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">202</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	TP_VOL := 0.0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">199</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">205</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Saturação do TP em 190</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">203</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF TP_VOL &gt;= VOL_MAX THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">187</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	TP_VOL := VOL_MAX; 			    // Saturação do TP em 190.0</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">198</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">204</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">170</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Conversão de Volume em Nível</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">171</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">TP_LEVEL := (TP_VOL/1000 + PI*EXPT(RAIO,2)*(RAIO/2)*(1-FR))/(PI*EXPT(RAIO,2));</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">172</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Saturação do RM em 0.0</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">173</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF TP_LEVEL &lt; 0.015 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">174</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	TP_LEVEL := 0.0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">175</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">127</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">TP_LEVEL := LREAL_TO_INT(TP_LEVEL*1000);	//Nível em mm </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">176</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">128</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">(* Falhas no TP *)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">129</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF LSHH201 AND FV105 AND FV104 AND BA101 THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">130</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_TP_MSG := "Tanque de Produto transbordando...";			</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">140</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_TP := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">141</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">ELSE</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">142</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_TP_MSG := "OK";</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">135</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_TP := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">9</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">10</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">101</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">FUNCTION_BLOCK TPRODUTO	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">104</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">(* O nível do TP aumenta se FV-105 e FV-104 e BA-01 estiverem acionadas.</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">105</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">   O nível do TP aumenta com uma vazão menor se FV-106 estiver acionada junto com FV-105 e FV-104 e BA-01.</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">106</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">   O nível do TP diminui se não houver vazão de entrada e FV-201 estiver acionada.</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">107</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">   Observe a saída FALHA_TP, que sempre indicará se alguma falha ocorrer, </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">92</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">   Ex.: bombear fluido com LSHH-201 atuada.*)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">15</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR_INPUT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">86</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Nível do Reator de Mistura</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">85</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	RM_VOL: REAL; </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">16</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//Válvula de Entrada do Tanque de Produto	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">88</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FV105: BOOL;		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">89</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//Válvula de Saída de Dry Martini - 900 L/min.</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">11</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FV104: BOOL;		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">12</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//Válvula de Entrada de Dreno - 900 L/min</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">23</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FV106: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">24</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	//Válvula de Saída de Produto - 180 L/min</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">70</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FV201: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">71</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Status da bomba BA-01 (0 - DESLIGADA / 1 - LIGADA)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">132</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	BA101: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">4</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">79</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR_OUTPUT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">80</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Nível do Tanque de Produto</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">17</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	TP_LEVEL: LREAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">150</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Volume do Tanque de Produto</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">151</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	TP_VOL: REAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">22</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"> 	// Chave de nível muito alto LSHH-201</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">77</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSHH201: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">78</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Chave de nível alto LSH-201</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">74</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSH201: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">75</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Chave de nível baixo LSL-201</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">138</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	LSL201: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">139</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Mensagem que sobre a falha no TP</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">136</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_TP_MSG: WSTRING(INT#34);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">137</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Booleano que indica falha no TP</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">5</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FALHA_TP: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">6</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">7</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">49</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Nível máximo do TP</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">50</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	VOL_MAX: REAL := 190;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">52</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Nível mínimo do TP</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">62</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	VOL_MIN: REAL := 10;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">63</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Incremento do ENVASE</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">53</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	ENVASE_DT: REAL := 0.20;	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">54</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Incremento de Dry Martini</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">55</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	DM_DT: REAL := 1.00;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">56</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Fator de Forma do TP</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">57</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FF: REAL := 1.0;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">58</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Task cyclic time</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">69</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	TT: REAL := 1.00;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">116</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	// Ajuste para o valor final de TP_LEVEL</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">134</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	TP_LEVEL_ADJ: REAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">249</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	STOP: BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">8</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">161</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string"></Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">156</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR CONSTANT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">157</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	PI: LREAL := 3.141592654;	//Constante PI</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">158</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	RAIO: REAL := 0.15; 	//Raio da base do tanque</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">159</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	L: REAL := 2.7;			//Nível máximo medido por LT101 (equivale a 50L considerando o Fator de Redução do volume pela esfericidade da base)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">160</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	FR: REAL := 0.84;		//Fator de redução por esfericidade da base (16%) se fosse um cilindro	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">1</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="UniqueIdGenerator" Type="string">252</Single>
+        <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
+        <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
+        <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">b0d3e283-c362-4fee-b9fd-1367dec7625a</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">Application</Single>
+        <Single Type="string">DM</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+  </List2>
+  <Single Name="ProfileName" Type="string">CODESYS V3.5 SP6 Patch 1</Single>
+</Single>  </StructuredView>
+</ExportFile>

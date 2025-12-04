@@ -1,0 +1,32 @@
+# Ignorar arquivos de opções de usuário (específico da máquina)
+*.opt
+
+# Ignorar arquivos temporários/backup do CODESYS
+*.~u
+*.xml
+*.compileinfo
+*.bootinfo_guids
+*.bootinfo
+*.bin
+# --- InduSoft Web Studio / AVEVA Edge ---
+
+# Arquivos de Backup automáticos (criados quando você salva)
+*.bak
+*.bkp
+*.~*
+
+# Pastas de Dados de Runtime (Histórico, Alarmes e Logs gerados na simulação)
+# Você não quer subir o histórico de testes para o Git
+/HST
+/ALARM
+/LOG
+/Retain
+
+# Arquivos temporários e de bloqueio
+*.lck
+*.tmp
+
+# Pasta de arquivos compilados/web (Geralmente é gerada ao rodar)
+# Se você não editou HTML manualmente, pode ignorar
+/IHM/Web/Dump/
+/__MACOSX
