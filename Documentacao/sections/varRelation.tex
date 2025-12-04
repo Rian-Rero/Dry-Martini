@@ -1,0 +1,49 @@
+\section{Relação de Variáveis}\label{sec:var-relations}
+
+As variáveis globais do sistema estão categorizadas por sua função no processo de automação.
+
+\subsection{Entradas e Sensores (Instrumentação)}
+
+
+\begin{description}
+    \item[\texttt{LSH101} / \texttt{LSL101}] Sensores digitais de nível Alto e Baixo do Reator de Mistura (RM-01).
+    \item[\texttt{LSH102} / \texttt{LSL102}] Sensores digitais de nível Alto e Baixo da Jaqueta de Resfriamento.
+    \item[\texttt{TSL101}] Termostato digital que indica se a temperatura de processo foi atingida (Temperatura OK).
+    \item[\texttt{LSHH201}] Sensor de nível ``Muito Alto'' (segurança) do Tanque de Produto (TP-01).
+    \item[\texttt{LSH201} / \texttt{LSL201}] Sensores digitais de nível Alto e Baixo do Tanque de Produto (TP-01).
+    \item[\texttt{ZY201\_Detect}] Sensor óptico para detecção de presença de barril na posição de envase.
+    \item[\texttt{ZY202\_Conta}] Sensor de saída da esteira responsável pela contagem de barris finalizados.
+    \item[\texttt{rNivel\_RM01} / \texttt{rNivel\_TP01}] Variáveis analógicas (LREAL) que recebem a leitura dos transmissores de nível dos tanques.
+    \item[\texttt{rVelocidade\_Misturador}] Feedback (retorno) da velocidade real do motor do misturador.
+    \item[\texttt{rVolume\_RM01} / \texttt{rVolume\_TP01}] Variáveis calculadas que representam o volume atual dentro dos respectivos tanques.
+\end{description}
+
+\subsection{Saídas e Atuadores}
+Variáveis responsáveis pelo comando físico dos equipamentos de campo.
+
+\begin{description}
+    \item[\texttt{FV101} / \texttt{FV102}] Válvulas solenoides de entrada de matéria-prima (Gin e Vermouth) no Reator.
+    \item[\texttt{FV103}] Válvula de entrada de líquido refrigerante na Jaqueta.
+    \item[\texttt{FV104}] Válvula de descarga do Reator para transferência de produto.
+    \item[\texttt{FV105}] Válvula de admissão do Tanque de Produto.
+    \item[\texttt{FV106} / \texttt{FV107}] Válvulas de dreno/rejeitos do Reator e da Jaqueta, respectivamente.
+    \item[\texttt{FV201}] Válvula de envase (dosagem do produto no barril).
+    \item[\texttt{BA101}] Comando da Bomba de Transferência.
+    \item[\texttt{bM101\_Ligar}] Comando lógico para habilitar o motor do misturador.
+    \item[\texttt{xSY101\_PWM\_Out}] Saída modulada (PWM) para controle de velocidade do inversor do misturador.
+    \item[\texttt{bM201\_Esteira}] Comando de acionamento do motor da esteira transportadora.
+\end{description}
+
+\subsection{Comandos e Interface (HMI)}
+Variáveis de interação com o operador e diagnósticos do sistema.
+
+\begin{description}
+    \item[\texttt{bBotaoAuto} / \texttt{bBotaoMan}] Botões de pulso para seleção do modo de operação (Automático ou Manual).
+    \item[\texttt{bBotaoEmg}] Botão de Emergência (Geralmente NF) para paradas críticas.
+    \item[\texttt{bResetAlarm}] Botão para reconhecimento e limpeza de alarmes ativos.
+    \item[\texttt{bModoAutomatico}] \textit{Flag} interna de estado: \texttt{TRUE} indica operação automática ativa.
+    \item[\texttt{bResetContador}] Comando para zerar os totalizadores de produção.
+    \item[\texttt{iContadorBatelada} / \texttt{iContadorBarris}] Contadores de bateladas produzidas e barris envasados.
+    \item[\texttt{rTotal\_Gin} / \texttt{rTotal\_Vermouth}] Totalizadores de volume consumido de matéria-prima.
+    \item[\texttt{bAlarme\_...}] Conjunto de \textit{flags} que indicam falhas críticas (ex: Nível Alto, Transporte Vazio).
+\end{description}

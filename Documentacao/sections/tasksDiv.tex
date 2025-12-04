@@ -1,0 +1,43 @@
+\section{Divisão de Tarefas e Programas da Aplicação}\label{sec:div-tarefas}
+
+A arquitetura do software foi dividida em tarefas distintas para separar a lógica de controle da lógica de simulação física, garantindo determinismo e tempos de ciclo adequados e requisição de multi-task.
+
+\subsection{MainTask (PrgBatelada)}
+\begin{itemize}
+    \item \textbf{Tempo de Ciclo:} 20 ms.
+    \item \textbf{Prioridade:} 1.
+    \item \textbf{Descrição:} Responsável pela execução da lógica de controle sequencial da batelada em SFC. Essa task controla o armazenamento e dosagem de matéria-prima. Esta seção é responsável pelo gerenciamento dos reservatórios iniciais. A lógica de controle desenvolvida atua sobre as válvulas de saída e bombas de transferência, garantindo que o volume exato requisitado pela receita seja transportado para o estágio seguinte. O controle nesta etapa é essencial para assegurar a proporção correta dos ingredientes antes do início do processamento da batelada. Além disso a lógica de emergência em que todos os procedimentos são pausados e o tanque da Área 01 esvaziado antes que o processo de produção seja reestabelecido. Contém o programa: \texttt{PrgBatelada}.
+\end{itemize}
+
+\subsection{T\_ENVASE (PrgArea02\_Envase)}
+\begin{itemize}
+    \item \textbf{Tempo de Ciclo:} 50 ms.
+    \item \textbf{Prioridade:} 1.
+    \item \textbf{Descrição:}
+A Área 02 destina-se ao processo de envase do produto final, operando de forma integrada entre o Tanque de Produto (TP-01) e o Transportador (TR-01) para o enchimento de barris de 15 litros. O ciclo automatizado inicia-se quando o nível do TP-01 atinge 50\%, habilitando o motor da esteira (M-201), que é interrompido momentaneamente ao detectar a presença de um tonel via sensor ZY-201 para permitir a abertura da válvula de envase (FV-201). O controle volumétrico é realizado pelo totalizador FQ-201 que, ao atingir o setpoint de 15L, comanda o fechamento da válvula e a retomada do transporte, sendo os tonéis contabilizados posteriormente pelo sensor ZY-202. O sistema incorpora lógicas de intertravamento e segurança que monitoram os níveis críticos do TP-01 — gerando alarmes em níveis altos (85\% e 95\%) e bloqueando o envase caso o nível desça a 10\% (LSL-201), com histerese para religamento apenas em 50\% — além de supervisionar a alimentação da linha, interrompendo o processo e gerando alarme caso nenhum barril seja detectado num intervalo de 15 segundos.Contém o programa: \texttt{PrgArea02\_Envase}.
+\end{itemize}
+\subsection{T\_PRG (PLC\_PROG)}
+\begin{itemize}
+    \item \textbf{Tempo de Ciclo:} 20 ms.
+    \item \textbf{Prioridade:} 1.
+    \item \textbf{Descrição:}
+    Esta task é responsável pelo gerenciamento das variáveis internas de controle. A lógica implementada processa a comutação (toggle) do botão de modo automático e atualiza a variável correspondente no CPL, habilitando a inicialização autônoma do processo. Simultaneamente, esta tarefa centraliza o monitoramento e o tratamento de todos os alarmes de nível do sistema.Contém o programa: \texttt{PLC\_PROG}.
+\end{itemize}
+\subsection{T\_PWM (PrgPWM\_M101)}
+\begin{itemize}
+    \item \textbf{Tempo de Ciclo:} 5ms.
+    \item \textbf{Prioridade:} 1.
+    \item \textbf{Descrição:}
+
+Para atender aos requisitos de acionamento suave do motor M-101, implementou-se um algoritmo de Modulação por Largura de Pulso (PWM) operando na frequência de 20 Hz, estruturado para gerenciar rampas lineares de aceleração e desaceleração. A lógica utiliza o tempo decorrido (Elapsed Time - ET) de temporizadores específicos para calcular dinamicamente o ciclo de trabalho (duty\ cycle), promovendo uma variação de 0 a 100\% em 5 segundos durante a partida e de 100 a 0\% em 10 segundos no desligamento. A geração do sinal de saída para o relé de estado sólido (GVL.xSY101\_PWM\_Out) é realizada através da comparação contínua entre um temporizador cíclico de base (tCycleTimer) e a largura de pulso proporcional à velocidade calculada, assegurando a modulação correta da tensão média aplicada ao atuador \texttt{SY-101} dentro dos limites de segurança estabelecidos.
+\end{itemize}
+
+
+
+\subsection{T\_SIMULACAO (PrgSimulacao)}
+\begin{itemize}
+    \item \textbf{Tempo de Ciclo:} 100ms.
+    \item \textbf{Prioridade:} 1.
+    \item \textbf{Descrição:}
+Para a validação da lógica de controle sem a presença da planta física, utilizou-se a estratégia de simulação baseada nos blocos funcionais (FBs) RMISTURA e TPRODUTO, fornecidos especificamente para emular a dinâmica do Reator de Mistura e do Tanque de Produto. Estes blocos foram instanciados em linguagem Ladder e configurados para responder aos acionamentos das válvulas e motores, gerando os sinais de nível e sensores discretos correspondentes. Um aspecto crítico desta etapa foi o ajuste do tempo de ciclo da tarefa (Task) no ambiente multitarefa do CODESYS, visto que as vazões simuladas são dependentes dessa discretização temporal. A integridade da simulação foi verificada através da ferramenta de monitoramento gráfico (Trace), assegurando que os tempos de enchimento e esvaziamento dos tanques correspondessem às vazões de projeto estipuladas.Contém o programa: \texttt{PrgSimulacao}.
+\end{itemize}

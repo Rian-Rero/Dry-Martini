@@ -1,0 +1,71 @@
+\documentclass[12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ARQUIVOS RELACIONADOS INCLUIDOS
+
+% pacotes customizados
+\input{resources/packages.tex}
+
+% comandos customizados
+\input{resources/custom_commands.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PARAMETROS DO DOCUMENTO
+
+% titulo do documento
+\titulo{Trabalho de Informática Industrial}
+
+% subtitulo do documento
+% 	*Veja que o simbolo '~' não é renderizado, se tratando de um 'placeholder'.
+\subtitulo{Dry-Martini}
+
+% adicione a descricao do trabalho que aparece na contra-capa
+\descricao{Sistema de Automação de Produção de Dry Martini}
+
+% nome dos autores. Separe-os por '\\'
+\autores{Rian Rero Lopes Jericó Vieira \\ Lara Strutz Carvalho \\ Luis Otávio de Souza Silva}
+	
+% departamento
+\departamento{Departamento de Engenharia Eletrônica}	
+
+% professor
+\professor{Prof. Emerson Alves da Silva}
+
+% codigo da disciplina
+\disciplina{ELT008}
+
+% turma
+\turma{TECAN}
+	
+% data do documento
+\data{\today}	
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% INICIO DO DOCUMENTO
+\begin{document}
+\begin{titlepage}
+
+\input{resources/front_page.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% *COLOQUE SUAS SEÇÕES TEXTUAIS AQUI
+\input{sections/intro}
+\input{sections/tasksDiv}
+\input{sections/varRelation}
+\input{sections/programs}
+\input{sections/ihm}
+\input{sections/tests}
+\input{sections/conclusion}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%bibliografia
+\bibliographystyle{unsrt}
+\bibliography{resources/bibliografia}
+
+\end{document}
