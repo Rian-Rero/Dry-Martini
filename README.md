@@ -118,3 +118,29 @@ IF tStartTimer.IN OR tStartTimer.Q THEN
 // Lógica de Geração do Pulso (20 Hz)
 GVL.xSY101_PWM_Out := TIME_TO_REAL(tCycleTimer.ET) < (TIME_TO_REAL(tPeriodo) * (GVL.rVelocidade_Misturador / 100.0));
 ```
+
+## 📸 Screenshots
+
+Abaixo estão algumas capturas de tela do sistema supervisório e da simulação:
+
+### 🖥️ Tela Principal – InduSoft SCADA
+
+![Tela Principal](assets/print_ihm.png)
+
+### 🧪 Sequenciamento da Batelada – SFC
+
+![Batelada](assets/SFC-Batelada.png)
+
+---
+
+## ✒️ Autores
+
+| Nome            | Função          | GitHub                        |
+| --------------- | --------------- | ----------------------------- |
+| **Rian Rero**   | Desenvolvimento | https://github.com/Rian-Rero  |
+| **Lara Strutz** | Desenvolvimento | https://github.com/larastrutz |
+| **Luis Otavio** | Desenvolvimento | https://github.com/LuisOtavi0 |
+
+### 👨‍🏫 Orientação
+
+**Professor Emerson Alves da Silva**
